@@ -1,0 +1,7 @@
+version: '2'
+services:
+  apigen:
+    build: .
+    volumes:
+      - ./files:/home/files
+      - ./docs:/home/docs
